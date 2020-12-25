@@ -9,21 +9,23 @@ h1 {
   margin-right: 10px;
   margin-left: 10px; 
     border: 1px solid black;
-    background-color:pink;
+    background-color:green;
     
     height: 150px;
     font-family: Helvetica;
     color: white;
     position: relative;
 }
-.top-right{
-position: relative;
-  border: 1px solid black;
-    background-color:blue;
-}
-.container{
+
+.container {
 position: relative;
    background-color:red;
+  width: 20%;
+}
+.top-right {
+position: relative;
+  border: 1px solid black;
+   background-color:blue;
 }
  
 
