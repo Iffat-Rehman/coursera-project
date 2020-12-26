@@ -25,7 +25,9 @@ h1 {
 .top-right {
 position: relative;
   border: 1px solid black;
-   background-color:blue;
+   background-color:green;
+  width:20px;
+  background-position:top-right;
 } 
  
 
