@@ -17,6 +17,7 @@ h1 {
    margin-left:20px;
   margin-bottom:40px;
  border: 2px solid black;
+  overflow:auto;
 }
 
 .paragraph{
