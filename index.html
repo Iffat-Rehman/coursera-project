@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,88 +7,46 @@
 <link rel="stylesheet" href="style.css">
 <style>
 
-/********** Base styles **********/
 
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-
-} 
- 
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3 {
-    float: left;
-    
-  }
-  .col-lg-1 {
-    width: 33.33%;
-  }
-  .col-lg-2 {
-    width: 66.66%; 
-  }
-  .col-lg-3 {
-    width: 100%;
-  }
- 
-}  
- 
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3 {
-    float: left;
-   
-  }
-  .col-md-1 {
-    width: 50%;
-  }
-  .col-md-2 {
-    width: 50%;
-  }
-  .col-md-3 {
-    width: 100%;
-  }
- 
-  }
-}
 
 </style>
 </head>
 <body>
-<h1>Responsive Layout</h1>
+<h1> Components!</h1>
 
 <div class="row">
  
   <div class="col-lg-1 col-md-1 ">
-    <div class="container">
-     <p class="top-right diode">  DIODE</p> 
-       <p class="main"> hello there!</p>
-      
-    </div>
-    
+        <div class="container">
+         <p class="top-right" id="diode">DIODE</p> 
+
+           <p class="paragraph">A diode is a two-terminal electronic component that conducts current primarily in one direction (asymmetric conductance); it has low (ideally zero) resistance in one direction, and high (ideally infinite) resistance in the other.</p>
+          
+        </div>
+        
   
  </div>
-  <div class="col-lg-1 col-md-1 ">
-     <div class="container">
-     <p class="top-right transistor"> TRANSISTOR</p> 
-   <p class="main"> hello there!</p>
-       </div>
+        <div class="col-lg-1 col-md-1 ">
+           <div class="container">
+           <p class="top-right" id="transistor">TRANSISTOR</p> 
+
+         <p class="paragraph">A transistor is a semiconductor device used to amplify or switch electronic signals and electrical power. It is composed of semiconductor material usually with at least three terminals for connection to an external circuit.</p>
+             </div>
     
     </div>
+
   <div class="col-lg-1 col-md-3 ">
     
-     <div class="container">
-      
-     <p class="top-right resistor"> RESISTOR</p> 
-    <p class="main"> hello there! dddddddddddddddddddddddddddddddddddddd
-       ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
-       
-       </div>
+         <div class="container">
+          
+         <p class="top-right" id="resistor"> RESISTOR</p> 
+
+        <p class="paragraph"> A resistor is a passive two-terminal electrical component that implements electrical resistance as a circui element. In electronic circuits, resistors are used to reduce current flow, adjust signal level etc.</p>  
+           
+           </div>
    </div>
 
 </div>
   </div>
 </body>
 </html>
-  
