@@ -1,36 +1,107 @@
 * {
   box-sizing: border-box;
+
 }
 h1 {
-  margin-bottom: 15px;
+  margin-bottom: 50px;
+  margin-top:40px; 
+  text-align: center;
+  font-family:serif;
+  font-size:40px;
 }
 
 .container {
-  margin-right: 10px;
-  margin-left: 10px; 
-    border: 1px solid black;
-    background-color:pink;
-    
-    height: 150px;
-    font-family: Helvetica;
-    color: white;
-    position: relative;
+ background-color:rgb(221, 240, 239);
+  height:220px;
+   margin-right:20px;
+   margin-left:20px;
+  margin-bottom:40px;
+ border: 2px solid black;
 }
 
-.main {
-   position: relative;
-   background-color:red;
-  width: 20%;
+.paragraph{
+
+padding-top:30px;
+padding-right:10px;
+padding-left:10px;
+
+font-family:serif;
+ font-size:large;
 }
+
 .top-right {
-position: relative;
-  border: 1px solid black;
-   background-color:green;
-  width:20px;
-  background-position:top-right;
+  width: 150px;
+  height: 30px;
+  padding-top:5px;
+  text-align: center;
+  float:right;
+  margin-top:0;
+  font-weight:bolder;
+ border-style: none none solid solid;
+ border-width:2px;
+} 
+
+#diode{
+  background-color: rgb(66, 180, 237);
+}
+#transistor{
+   background-color: rgb(49, 158, 51);
+}
+
+#resistor{
+  background-color: rgb(237, 194, 38);
+  
+}
+/
+
+
+.row {
+  width: 100%;
+
+
 } 
  
-
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+    
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 66.66%; 
+  }
+  .col-lg-3 {
+    width: 100%;
+  }
  
+}  
  
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+   
+  }
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
  
+  }
+}
+/********** small devices only **********/
+@media (max-width: 767px)  {
+  
+  .col-md-3 {
+    float: left;
+    width: 100%;
+  }
+}
